@@ -1,0 +1,21 @@
+.button {
+  background-color: #6b49d6;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+  border: none;
+  margin: 10px 0;
+}
+
+.button:hover {
+  background-color: #ac9bd9;
+  color: white;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}

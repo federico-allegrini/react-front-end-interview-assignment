@@ -1,0 +1,30 @@
+.photoGridItem {
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  transition: filter 0.3s ease-in-out;
+}
+
+.photoGridItem .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 16px;
+  color: var(--white);
+}
+
+.photoGridItem .info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.photoGridItem .info p {
+  font-size: 16px;
+  margin: 8px 0 0;
+}

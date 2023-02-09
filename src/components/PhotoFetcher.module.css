@@ -1,0 +1,18 @@
+.photoFetcher {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.photoFetcher h1 {
+  text-align: left;
+  margin: 32px 0 6px 0;
+  color: var(--black);
+}
+
+.photoFetcher .toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0;
+}
