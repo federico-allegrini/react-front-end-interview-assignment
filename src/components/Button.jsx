@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 
-import { button } from "./Button.module.css";
+import { button, full } from "./Button.module.css";
 
-const Button = ({ children, onClick }) => {
+const Button = ({ children, onClick, fullWidth = false }) => {
   return (
-    <button className={button} onClick={onClick}>
+    <button className={`${button} ${fullWidth ? full : ""}`} onClick={onClick}>
       {children}
     </button>
   );
@@ -13,6 +13,7 @@ const Button = ({ children, onClick }) => {
 Button.propTypes = {
   children: PropTypes.node.isRequired,
   onClick: PropTypes.func.isRequired,
+  fullWidth: PropTypes.bool,
 };
 
 export default Button;

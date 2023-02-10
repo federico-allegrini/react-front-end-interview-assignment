@@ -1,6 +1,12 @@
 :root {
   --black: #222222;
   --white: #ffffff;
+  --violet: #6b49d6;
+  --lightViolet: #ac9bd9;
+  --grey: #888888;
+  --lightGrey: #cccccc;
+  --green: #72bf6a;
+  --transitionType: 0.3s ease-in-out;
   font-family: sans-serif;
   font-size: 14px;
 }
